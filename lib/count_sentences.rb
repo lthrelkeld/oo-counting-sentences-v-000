@@ -1,9 +1,8 @@
 require 'pry'
 
 class String
-  attr_accessor string
 
-  def sentence?
+  def sentence?(string)
       string.end_with?(".")
   end
 
