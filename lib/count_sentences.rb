@@ -18,7 +18,7 @@ class String
     count = 0
     char_prev = 0
     self.each_char do |char|
-      if (char == "." || char == "?" || char == "!") && (char_prev != "." && char_prev != "?" || char_prev != "!")
+      if (char == "." || char == "?" || char == "!") && (char_prev != "." && char_prev != "?" && char_prev != "!")
         count +=1
       end
       char_prev = char
