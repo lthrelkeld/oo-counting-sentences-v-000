@@ -23,5 +23,6 @@ class String
       end
       char_prev = char
     end
+    count
   end
 end
